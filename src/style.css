@@ -1,0 +1,97 @@
+body {
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(161, 255, 206, 1) 0%,
+    rgba(250, 255, 209, 1) 90%
+  );
+  width: 50%;
+  padding-top: 20px;
+  margin: 0 auto;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  display: block;
+}
+form {
+  text-align: center;
+  padding-top: 35px;
+}
+#city-input {
+  opacity: 80%;
+  border: 1px solid #424658;
+  border-radius: 5px;
+  padding: 7px 10px;
+}
+#submit,
+#location-button {
+  background-color: #105d86;
+  border: none;
+  border-radius: 6px;
+  padding: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#submit:hover {
+  cursor: pointer;
+}
+#location:hover {
+  cursor: pointer;
+}
+.container, .card  {
+  text-shadow: 1px 1px #124599;
+  color: #b4e2e7;
+  border-radius: 10px;
+  background-image: url(https://images.wallpaperscraft.com/image/clouds_sky_overcast_116782_1600x1200.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.city {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  padding-top: 45px;
+}
+#ddate {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 200;
+}
+.date span {
+  font-size: 15px;
+}
+
+.float-left {
+  font-size: 20px;
+
+  text-align: initial;
+  position: relative;
+  left: 65px;
+  bottom: 10px;
+  font-size: 25px;
+}
+a {
+  color: #b4e2e7;
+  font-family: "Cormorant Unicase", serif;
+}
+#temp-degrees {
+  font-size: 80px;
+}
+#infos {
+  list-style: none;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  position: relative;
+  left: 150px;
+  bottom: 105px;
+}
+.dates-week,
+.dates-temp {
+  padding-top: 10px;
+}
+.col {
+  font-size: 20px;
+  font-weight: 500;
+}
