@@ -23,14 +23,14 @@ function formatDate(date) {
   return `${day} ${hours}:${minutes}`;
 }
 
-function location(event) {
+function currentLocation(event) {
   event.preventDefault();
   let cityValue = document.querySelector("#city-input");
   let city = document.querySelector("#city");
   city.innerHTML = ` ${cityValue.value}`;
 }
 let newCity = document.querySelector("#search-form");
-newCity.addEventListener("submit", location);
+newCity.addEventListener("submit", currentLocation);
 
 function weatherCondition(response) {
   document.querySelector("#city-input").innerHTML = response.data.main.name;

@@ -35,7 +35,7 @@ form {
 #location:hover {
   cursor: pointer;
 }
-.container {
+.container , .card, .card-body{
   text-shadow: 1px 1px #124599;
   color: #b4e2e7;
   border-radius: 10px;
