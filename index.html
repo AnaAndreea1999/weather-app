@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>homework week 5</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/43d21798bb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <form id="search-form" >
+            <input
+              type="text"
+              id="city-input"
+              placeholder="Enter your city..."
+              autocomplete="off"
+            />
+            <input type="submit" value="Search" id="submit" />
+            <button id="location-button">Current location</button>
+          </form>
+
+          <h1 class="city" id="city">Basel</h1>
+          <h3 class="current-date" id="ddate">
+            Sunday, 14 March <br />
+            <span class="hour"> 16:32</span>
+          </h3>
+
+          <div class="float-left">
+            <span class="temperature" id="temp-degrees"></span
+            ><span class="units">
+              <a href="#" id="celsius-link">°C</a> |
+              <a href="#" id="fahrenheit-link">°F</a>
+              <br />
+              <i class="fas fa-cloud"> Cloudy</i>
+            </span>
+          </div>
+        </div>
+
+          <div class="temperature-infos">
+            <ul id="infos">
+              
+              <li >Humidity: <span id="humidity" ></span>% </li>
+              <li >Wind: <span id="wind"></span> km/hr </li>
+            </ul>
+          </div>
+
+          <div class="row align-items-start dates-week">
+            <div class="col">Monday</div>
+            <div class="col">Tuesday</div>
+            <div class="col">Wednesday</div>
+            <div class="col">Thursday</div>
+            <div class="col">Friday</div>
+            <div class="col">Saturday</div>
+          </div>
+
+          <div class="row align-items-start dates-temp">
+            <div class="col">🌥️ 8°</div>
+            <div class="col">🌥️6 °</div>
+            <div class="col">🌤️9°</div>
+            <div class="col">☀️10°</div>
+            <div class="col">☀️15°</div>
+            <div class="col">☀️11°</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
