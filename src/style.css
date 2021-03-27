@@ -1,15 +1,21 @@
 body {
+    
   box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
   background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
     rgba(161, 255, 206, 1) 0%,
     rgba(250, 255, 209, 1) 90%
   );
-  width: 50%;
+  width: 100vw;
+  height: 100vh;
   padding-top: 20px;
   margin: 0 auto;
   font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
   display: block;
+}
+.div{
+    width: 100vw;
+  height: 100vh;
 }
 form {
   text-align: center;
