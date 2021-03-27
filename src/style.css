@@ -101,3 +101,13 @@ a {
   font-size: 20px;
   font-weight: 500;
 }
+ a{
+  color: black;
+text-decoration: none;
+
+} 
+small{
+  color: black;
+  position: relative;
+  left:70px;
+}
